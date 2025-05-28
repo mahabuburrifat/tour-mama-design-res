@@ -62,8 +62,13 @@
 }
 }
 
-/* ----------countries we cover--------- */
+
+
+
+
 @media (max-width: 550px) {
+    
+    /* ----------countries we cover--------- */
     .countries-card-container {
     display: grid;
     grid-template-columns: 2fr;
