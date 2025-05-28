@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+body {
+    margin: 0; 
+    padding: 3rem;
+    padding-bottom: 0;
+    background-image: linear-gradient(#fbf7ff, #f3ebff, #eddfff);
+}
+
+.hero-container {
+    background-image: url("images/hero-bg.png");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem 2.5rem;
+    border: 2px solid #cfcfda;
+    border-radius: 2rem;
+    background-color: #fbf7ff;
+}
+.hero-text > h1 {
+    font-size: 56px;
+    font-weight: 900;
+}
+.hero-text .to-the-world {
+    color: #f411cf;
+}
+.hero-text > p {
+    color: #aaaaab;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+.hero-text .get-started-btn {
+    margin-right: 2rem;
+}
+.hero-text .get-started-btn,
+.best-of-asia-card-text .book-now-btn,
+.countries-we-cover-section .explore-btn {
+    background-color: #872bff;
+    color: #f7f1ff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 0;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+.hero-text .get-started-btn:hover, 
+.best-of-asia-card-text .book-now-btn:hover,
+.countries-we-cover-section .explore-btn:hover {
+    background-color: #6f01cf;
+}
+.hero-text .watch-demo-btn {
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid #872bff;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+.hero-image > img {
+    width: 100%;
+    max-width: 550px;
+}
+
+
+
+/* -------sevices section--------- */
+
+.services-header > h2,
+.best-of-asia-header > h2,
+.countries-we-cover-header > h2,
+.tourist-love-us-header > h2 {
+    color: #f411cf;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.services-header > h1,
+.best-of-asia-header > h1,
+.countries-we-cover-header > h1,
+.tourist-love-us-header > h1 {
+    font-size: 32px;
+    text-align: center;
+}
+.sevices-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+.services-card-container .card > img {
+    width: 64px;
+    padding-bottom: 1.5rem;
+}
+.services-card-container .card {
+    background-color: #fdffff;
+    text-align: center;
+    padding: 5rem;
+    border-radius: 1.5rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    max-width: 380px;
+}
+.card > p {
+    text-align: center;
+    color: #aaaaab;
+}
+.services-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+
+
+/* ------- best of asia section ----------- */
+
+.best-of-asia-card-text > h2 {
+    color: #3e3e3e;
+    font-size: 32px;
+}
+.best-of-asia-card-text > p {
+    color: #3e3e3e;
+}
+
+
+.best-of-asia-card {
+    background-color: #fdffff;
+    display: flex;
+    gap: 2rem;
+    padding: 2.5rem;
+    border-radius: 2rem;
+}
+
+
+/* ----------countries we cover--------- */
+.countries-we-cover-section {
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+}
+.countries-card-container .card {
+    background-color: #fdffff;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #3e3e3e;
+    font-weight: 600;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.countries-card-container {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.countries-we-cover-section .explore-btn {
+    display: block;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+
+
+/* --------tourist loves us card--------- */
+.tourist-love-card {
+    background-color: #fdffff;
+    padding: 2.5rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+}
+.tourist-love-card > p {
+    text-align: center;
+    text-align:start;
+}
+.review-name-star {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+}
+.review-name-star > p > span {
+    font-size: 24px;
+    font-weight: 600;
+}
+.review-name-star > p {
+    text-align: center;
+    color: #3e3e3e;
+    margin: auto;
+    margin-right: 12.5rem;
+
+}
+.review-name-star > img {
+    display: block;
+    justify-content: end;
+}
+
+/* -----footer------- */
+
+#footer-container {
+    background-color: #fdffff;
+    padding: 0 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    margin-top: 5rem;
+    padding-top: 1rem;
+    
+}
+#footer-container > p {
+    color: #3e3e3e;
+}
+.footer-img-container > a > img {
+    width: 32px;
+}
+#footer-container .footer-img-container > a {
+    margin-right: 1rem;
+}

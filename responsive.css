@@ -1,0 +1,73 @@
+@media (max-width: 1024px) {
+    .hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse; 
+    align-items: center;
+}
+.hero-text > h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+.hero-text .get-started-btn {
+    margin-bottom: 1.5rem;
+}
+
+/* -------sevices section--------- */
+.services-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* ------- best of asia section ----------- */
+.best-of-asia-card {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.best-of-asia-card > img {
+    width: 100%;
+}
+.review-name-star > p {
+    margin-right: auto;
+    display: block;
+    align-items: center;
+}
+.review-name-star {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#footer-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center; 
+    margin-top: 5rem;
+    padding-top: 1.5rem;
+}
+#footer-container .footer-img-container > a {
+    margin-right: 0.5rem;
+}
+#footer-container > p {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+}
+
+/* ----------countries we cover--------- */
+@media (max-width: 550px) {
+    .countries-card-container {
+    display: grid;
+    grid-template-columns: 2fr;
+    align-items: center;
+    gap: 2rem;
+}
+}
