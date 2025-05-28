@@ -10,7 +10,7 @@ body {
 }
 
 .hero-container {
-    background-image: url("images/hero-bg.png");
+    background-image: url("./images/hero-bg.png");
     display: flex;
     justify-content: space-between;
     align-items: center;
