@@ -149,6 +149,7 @@ body {
     padding: 1.5rem 2rem;
     border-radius: 1rem;
     cursor: pointer;
+    text-align: center;
 }
 .countries-card-container {
     margin-top: 4rem;
