@@ -203,15 +203,13 @@ body {
 
 #footer-container {
     background-color: #fdffff;
-    padding: 0 3.5rem;
+    padding: 1rem 3.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
-    margin-top: 5rem;
-    padding-top: 1rem;
-    
+    margin-top: 5rem; 
 }
 #footer-container > p {
     color: #3e3e3e;

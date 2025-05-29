@@ -97,4 +97,19 @@
 .best-of-asia-card-text > h2 {
     font-size: 28px;
 }
+
+.review-name-star > img {
+    max-width: 205px;
+}
+
+#footer-container { 
+    padding: 1rem 1.5rem;  
+}
+
+.footer-img-container > a > img {
+    width: 28px;
+}
+#footer-container .footer-img-container > a {
+    margin-right: 0.5rem;
+}
 }
