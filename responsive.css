@@ -71,7 +71,9 @@
 
 
 @media (max-width: 550px) {
-    
+    .hero-text > h1 {
+    font-size: 28px;
+}
     /* ----------countries we cover--------- */
     .countries-card-container {
     display: grid;
@@ -84,5 +86,15 @@
 .countries-we-cover-section .explore-btn,
 .hero-text .watch-demo-btn {
     padding: 14px 20px;
+}
+.services-card-container .card {
+    padding: 2rem;
+}
+.services-header > h1,
+.best-of-asia-header > h1,
+.countries-we-cover-header > h1,
+.tourist-love-us-header > h1,
+.best-of-asia-card-text > h2 {
+    font-size: 28px;
 }
 }
