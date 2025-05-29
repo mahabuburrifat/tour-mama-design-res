@@ -101,7 +101,6 @@ body {
     border-radius: 1.5rem;
     margin-top: 1.5rem;
     width: 100%;
-    max-width: 380px;
 }
 .card > p {
     text-align: center;
@@ -110,7 +109,7 @@ body {
 .services-card-container {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 

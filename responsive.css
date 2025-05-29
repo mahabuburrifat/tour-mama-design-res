@@ -10,6 +10,9 @@
     font-size: 36px;
     font-weight: 900;
 }
+.hero-text .br {
+    display: none;
+}
 .hero-text .get-started-btn {
     margin-bottom: 1.5rem;
 }
